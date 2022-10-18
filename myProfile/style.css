@@ -17,5 +17,24 @@ body{
     height: 130px;
     border-radius: 50%;
     object-fit: cover;
-    object-position:0 -8px;
+    object-position:0 px;
+}
+.main{
+    background-color: rgba(0,0,0,0.7);
+    color: rgb(255,255,255);
+    text-align: center;
+    border-radius: 20%;
+    padding:0 20px 20px 20px;
+}
+span{
+    text-transform: uppercase;
+    border: solid;
+    border-color: green;
+    border-radius: 10px;
+    padding:0 20px;
+    background-color: rgb(64,156,28);
+}
+.content span:hover{
+     cursor: pointer;
+     background-color: transparent;
 }
